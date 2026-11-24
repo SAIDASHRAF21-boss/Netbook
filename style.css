@@ -1,1 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #100f3a;
+    background: #ffffff;
+}
 
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 25px;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    background: #ffffff;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.navbar {
+    min-height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.logo {
+    color: #24243d;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logoicon {
+    color: #f5a623;
+    font-size: 30px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav a {
+    color: #33334b;
+    font-size: 14px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav a:hover {
+    color: #2878ed;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-bottom: 1px solid #dddddd;
+    padding: 8px 0;
+}
+
+.search span {
+    color: #555555;
+    font-size: 20px;
+}
+
+.search input {
+    width: 120px;
+    border: none;
+    outline: none;
+    font-size: 13px;
+}
+
+.hero {
+    width: 100%;
+    min-height: 520px;
+    background: linear-gradient(110deg, #ffffff, #e5efff);
+    display: flex;
+    align-items: center;
+}
+
+.herocontent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+.herotext {
+    width: 48%;
+}
+
+.herolabel {
+    display: inline-block;
+    background: #e4edff;
+    color: #2878ed;
+    padding: 10px 20px;
+    border-radius: 7px;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.herotext h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    margin: 0 0 20px;
+    font-weight: 700;
+}
+
+.herotext p {
+    color: #656575;
+    font-size: 16px;
+    line-height: 1.7;
+    max-width: 450px;
+    margin-bottom: 28px;
+}
+
+.herobuttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 28px;
+    border-radius: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.primary {
+    background: #2878ed;
+    color: #ffffff;
+    box-shadow: 0 7px 15px #2878ed35;
+}
+
+.primary:hover {
+    background: #125fcf;
+}
+
+.secondary {
+    color: #2878ed;
+    border: 1px solid #a9c8f5;
+    background: transparent;
+}
+
+.secondary:hover {
+    background: #ffffff;
+}
+
+.heroimage {
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroimage img {
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
